@@ -9,27 +9,27 @@
 
 ## UseCases (Regras de negócios)
 
-[] Cadastrar um novo usuario
+**[] Cadastrar um novo usuario**  
 []  - cpf ou email devem ser unicos
 
-[] Buscar um cadastro de usuario pro cpf
+**[] Buscar um cadastro de usuario pro cpf**  
 []  - Retornar um usuario ou vazio
 
-[]  Cadastrar um novo livro
+**[]  Cadastrar um novo livro**    
 []  - ISBN deve ser unico
 
-[]  Buscar um livro por nome ou ISBN
+**[]  Buscar um livro por nome ou ISBN**    
 []  - retorna um livro ou vazio
 
-[] Emprestar um livro ao usuario
-[]  - a data de retorno não pode ser maior do que a data de saida
-[]  - o mesmo usuario não pode estar com o mesmo livro com o mesmo ISBN ao mesmo tempo
-[]  - o mesmo usuario pode estar com o mesmo livro com o ISBN diferente ao mesmo tempo
+**[] Emprestar um livro ao usuario**    
+[]  - a data de retorno não pode ser maior do que a data de saida  
+[]  - o mesmo usuario não pode estar com o mesmo livro com o mesmo ISBN ao mesmo tempo  
+[]  - o mesmo usuario pode estar com o mesmo livro com o ISBN diferente ao mesmo tempo  
 []  - ao cadastrar um emprestimo, sera enviado um email automaticamente informando o nome do livro, nome do usuario, CPF, a data de saida e a data de retorno;
 
-[] Devolver o livro empresta
+**[] Devolver o livro empresta**  
 [] - caso o usuario tenha atrasado, sera gerada uma multa fix de R$ 10,00
 
-[] Mostrar todos os emprestimos pendentes, com o nome do livro, nome do usuairo, CPF, data de saida e data de retorno. Ordenamos pela data de retorno mais antiga
+**[] Mostrar todos os emprestimos**   pendentes, com o nome do livro, nome do usuairo, CPF, data de saida e data de retorno. Ordenamos pela data de retorno mais antiga
 
 ## Estruturas
